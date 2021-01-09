@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 const Campsite = require('./models/campsite');
 
 const url = 'mongodb://localhost:27017/nucampsite';
-
 const connect = mongoose.connect(url, {
     useCreateIndex: true,
     useFindAndModify: false,
